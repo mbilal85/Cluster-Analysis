@@ -1,0 +1,3 @@
+# Cluster-Analysis
+
+Different news applications like Google News automatically group similar news articles under a topic. There is a process that runs in the background to arrive at these groups. I have worked on unsupervised learning through clustering using the SciPy library in Python. This project also covers pre-processing of data and application of hierarchical and k-means clustering. I will explore player statistics from a popular football video game, FIFA 18. After working on different techniques, I am able to quickly apply various clustering algorithms on data, visualize the clusters formed and analyze results.
