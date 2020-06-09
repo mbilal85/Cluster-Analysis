@@ -36,7 +36,7 @@ plt.show()
 ```
 
 
-![png](output_5_0.png)
+![output_5_0](https://user-images.githubusercontent.com/49030506/84093677-eba16e00-a9c8-11ea-8af0-2cb52f713c3b.png)
 
 
 
@@ -72,7 +72,7 @@ plt.show()
 ```
 
 
-![png](output_9_0.png)
+![output_9_0](https://user-images.githubusercontent.com/49030506/84093680-ec3a0480-a9c8-11ea-8502-9361ef39ddfc.png)
 
 
 The cluster labels are plotted with different colors. We can notice that the resulting plot has an extra cluster labelled 0 in the legend. This will be explained later. 
@@ -107,7 +107,7 @@ plt.show()
 ```
 
 
-![png](output_13_0.png)
+![output_13_0](https://user-images.githubusercontent.com/49030506/84093681-ec3a0480-a9c8-11ea-9ba0-790753baac08.png)
 
 
 The results of both types of clustering are similar. I will look at distinctly different results later.
@@ -158,7 +158,7 @@ plt.show()
 ```
 
 
-![png](output_20_0.png)
+![output_20_0](https://user-images.githubusercontent.com/49030506/84093683-ec3a0480-a9c8-11ea-9b17-e2f8beaaff40.png)
 
 
 The scaled values have lower variations in them.
@@ -189,7 +189,7 @@ plt.show()
 ```
 
 
-![png](output_23_0.png)
+![output_23_0](https://user-images.githubusercontent.com/49030506/84093685-ecd29b00-a9c8-11ea-98fb-f887b69b4bb8.png)
 
 
 Changes in the original data are negligible as compared to the scaled data. 
@@ -309,7 +309,7 @@ fifa.head()
       <td>Neymar</td>
       <td>Neymar da Silva Santos Jr.</td>
       <td>Paris Saint-Germain</td>
-      <td>https://cdn.sofifa.org/18/teams/73.png</td>
+      <td>https://cdn.sofifa.org/18/teams/73.</td>
       <td>2100</td>
       <td>25</td>
       <td>French Ligue 1</td>
@@ -654,7 +654,7 @@ print(fifa[['scaled_wage', 'scaled_value']].describe())
 ```
 
 
-![png](output_31_0.png)
+![output_31_0](https://user-images.githubusercontent.com/49030506/84093686-ecd29b00-a9c8-11ea-9a3d-1db912c16f1e.png)
 
 
            scaled_wage  scaled_value
@@ -786,7 +786,7 @@ plt.show()
 ```
 
 
-![png](output_37_0.png)
+![output_37_0](https://user-images.githubusercontent.com/49030506/84093687-ecd29b00-a9c8-11ea-83aa-f1bef1c0452f.png)
 
 
 The two clusters correspond to the points of attractions in the figure towards the bottom (a stage) and the top right (an interesting stall).
@@ -813,7 +813,7 @@ plt.show()
 ```
 
 
-![png](output_40_0.png)
+![output_40_0](https://user-images.githubusercontent.com/49030506/84093688-ed6b3180-a9c8-11ea-9667-52197b2103f0.png)
 
 
 Notice that in this example, the clusters formed are not different from the ones created using the ward method.
@@ -841,7 +841,7 @@ plt.show()
 ```
 
 
-![png](output_43_0.png)
+![output_43_0](https://user-images.githubusercontent.com/49030506/84093689-ed6b3180-a9c8-11ea-8446-e9fc1ade788a.png)
 
 
 Coincidentally, the clusters formed are not different from the ward or single methods.
@@ -868,7 +868,7 @@ plt.show()
 ```
 
 
-![png](output_46_0.png)
+![output_46_0](https://user-images.githubusercontent.com/49030506/84093690-ed6b3180-a9c8-11ea-9cc6-913868a4287b.png)
 
 
 The two different clusters are shown in different colors.
@@ -895,7 +895,7 @@ plt.show()
 ```
 
 
-![png](output_49_0.png)
+![output_49_0](https://user-images.githubusercontent.com/49030506/84093692-ee03c800-a9c8-11ea-87e0-c58bb114853f.png)
 
 
 The legend is automatically shown when using the hue argument.
@@ -925,7 +925,7 @@ plt.show()
 ```
 
 
-![png](output_53_0.png)
+![output_53_0](https://user-images.githubusercontent.com/49030506/84093693-ee03c800-a9c8-11ea-8c11-fd6be6db4e93.png)
 
 
 Noticing the significant difference between the inter-cluster distances beyond the top two clusters.
@@ -1058,7 +1058,7 @@ plt.show()
 
 
 
-![png](output_61_1.png)
+![output_61_1](https://user-images.githubusercontent.com/49030506/84093694-ee03c800-a9c8-11ea-9a37-fb97df936cd7.png)
 
 
 We can see that players are distributed in three clusters based on their scores on sliding_tackle and aggression. 
@@ -1098,7 +1098,7 @@ plt.show()
 ```
 
 
-![png](output_65_0.png)
+![output_65_0](https://user-images.githubusercontent.com/49030506/84093695-ee9c5e80-a9c8-11ea-924c-5101f1872105.png)
 
 
 The clusters formed are exactly the same as hierarchical clustering.
@@ -1134,7 +1134,7 @@ plt.show()
 ```
 
 
-![png](output_69_0.png)
+![output_69_0](https://user-images.githubusercontent.com/49030506/84093696-ee9c5e80-a9c8-11ea-9c35-e2d8af01aa6e.png)
 
 
 From the elbow method we can see that the slop doesn't decrease after 3 clusters. In this case 3 is the right number of clusters. 
@@ -1178,7 +1178,7 @@ plt.show()
 ```
 
 
-![png](output_75_0.png)
+![output_75_0](https://user-images.githubusercontent.com/49030506/84093698-ee9c5e80-a9c8-11ea-9862-37843df300fd.png)
 
 
 There is no well defined elbow in this plot. 
@@ -1216,7 +1216,7 @@ plt.show()
 ```
 
 
-![png](output_79_0.png)
+![output_79_0](https://user-images.githubusercontent.com/49030506/84093699-ef34f500-a9c8-11ea-8e3f-f906329c9bdb.png)
 
 
 
@@ -1238,7 +1238,7 @@ plt.show()
 ```
 
 
-![png](output_80_0.png)
+![output_80_0](https://user-images.githubusercontent.com/49030506/84093700-ef34f500-a9c8-11ea-9cd5-9b3286a488cd.png)
 
 
 The plots have not changed after changing the seed as the clusters are well-defined.
@@ -1279,7 +1279,7 @@ plt.show()
 
 
 
-![png](output_83_1.png)
+![output_83_1](https://user-images.githubusercontent.com/49030506/84093701-ef34f500-a9c8-11ea-9348-88d16180d709.png)
 
 
 
@@ -1772,7 +1772,7 @@ plt.show()
 
 
 
-![png](output_98_2.png)
+![output_98_2](https://user-images.githubusercontent.com/49030506/84093702-ef34f500-a9c8-11ea-8df7-7fd00a9eb5ba.png)
 
 
 
@@ -1866,7 +1866,7 @@ for cluster in fifa['cluster_labels'].unique():
 
 
 
-![png](output_104_1.png)
+![output_104_1](https://user-images.githubusercontent.com/49030506/84093703-ef34f500-a9c8-11ea-86af-c8bc0b50ce18.png)
 
 
     1 ['Cristiano Ronaldo' 'L. Messi' 'Neymar' 'L. Suárez' 'M. Neuer']
